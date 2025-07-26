@@ -46,7 +46,7 @@ Pipeline ini dirancang untuk memprediksi penyakit asma berdasarkan dataset yang 
 ---
 
 ## 🗂️ Struktur Direktori
-text
+```text
 .
 ├── dataset/               # Berisi asthma_disease_data.csv (dataset penyakit asma)
 ├── notebooks/             # Berisi asthma_ml_pipeline.ipynb (notebook pipeline ML asma)
