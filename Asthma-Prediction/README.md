@@ -32,37 +32,23 @@ Pustaka yang digunakan:
 
 Pipeline ini dirancang untuk memprediksi penyakit asma berdasarkan dataset yang diberikan. Berikut adalah tahapan yang dilakukan dalam proyek ini:
 
-1. **Tahap 1** – **Instalasi & Import**  
-   Mengimpor pustaka yang diperlukan untuk analisis dan pemodelan.
-
-2. **Tahap 2** – **Load Dataset**  
-   Memuat dataset yang berisi data medis yang digunakan untuk analisis lebih lanjut.
-
-3. **Tahap 3** – **Exploratory Data Analysis (EDA)**  
-   Melakukan analisis eksplorasi data dengan visualisasi untuk memahami pola dan distribusi dalam data.
-
-4. **Tahap 4** – **Feature Engineering (severity scoring)**  
-   Mengolah fitur dari dataset, termasuk memberi skor pada keparahan penyakit asma berdasarkan data.
-
-5. **Tahap 5** – **Ordinal Classification (RandomForest)**  
-   Menerapkan model klasifikasi ordinal menggunakan RandomForest untuk memprediksi tingkat keparahan asma.
-
-6. **Tahap 6** – **Model Evaluation**  
-   Mengevaluasi model menggunakan metode seperti Cross-Validation, ROC-AUC, dan confusion matrix untuk mengukur kinerja model.
-
-7. **Tahap 7** – **Explainable ML**  
-   Menggunakan regresi logistik dan SHAP untuk penjelasan hasil model dan memahami faktor-faktor yang mempengaruhi keputusan model.
-
-8. **Tahap 8** – **Clustering (KMeans + t-SNE)**  
-   Menggunakan teknik clustering (KMeans) dan visualisasi (t-SNE) untuk memetakan pola dalam data dan hubungan antar fitur.
-
-9. **Tahap 9** – **Visualisasi Cluster vs Severity**  
-   Menganalisis dan memvisualisasikan hasil clustering dengan tingkat keparahan penyakit asma.
-
-10. **Tahap 10** – **Save Model**  
-    Menyimpan model yang sudah dilatih untuk digunakan lebih lanjut dalam aplikasi atau analisis lainnya.
+1. **Instalasi & Import**: Mengimpor pustaka yang diperlukan.
+2. **Load Dataset**: Memuat dataset untuk analisis.
+3. **Exploratory Data Analysis (EDA)**: Menganalisis data untuk memahami pola dan distribusi.
+4. **Feature Engineering (severity scoring)**: Mengolah fitur dan memberi skor keparahan asma.
+5. **Ordinal Classification (RandomForest)**: Menggunakan RandomForest untuk klasifikasi tingkat keparahan.
+6. **Model Evaluation**: Mengevaluasi model dengan Cross-Validation, ROC-AUC, dan confusion matrix.
+7. **Explainable ML**: Menggunakan regresi logistik dan SHAP untuk penjelasan hasil model.
+8. **Clustering (KMeans + t-SNE)**: Menerapkan KMeans dan t-SNE untuk visualisasi pola data.
+9. **Visualisasi Cluster vs Severity**: Menganalisis hasil clustering dan keparahan asma.
+10. **Save Model**: Menyimpan model yang sudah dilatih untuk penggunaan lebih lanjut.
 
 ---
 
 ## 🗂️ Struktur Direktori
-
+text
+.
+├── dataset/               # Berisi asthma_disease_data.csv (dataset penyakit asma)
+├── notebooks/             # Berisi asthma_ml_pipeline.ipynb (notebook pipeline ML asma)
+├── requirements.txt       # File yang berisi daftar pustaka yang dibutuhkan 
+└── README.md              # Dokumentasi proyek ini
