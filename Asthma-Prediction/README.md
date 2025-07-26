@@ -9,6 +9,25 @@ Proyek ini adalah implementasi pipeline machine learning untuk memprediksi penya
 
 ---
 
+## 👨‍💻 Informasi Pengembang
+
+**Nama**: Mohammad Wijdan Arrosyid  
+**NIM**: 202210370311497
+
+---
+
+## 🔗 Referensi Pustaka
+
+Pustaka yang digunakan:
+
+- Pandas, Numpy untuk manipulasi data.
+- Matplotlib, Seaborn untuk visualisasi.
+- Scikit-learn untuk algoritma machine learning.
+- SHAP untuk Explainable AI.
+- Statsmodels untuk analisis statistik.
+
+---
+
 ## 📖 Deskripsi
 
 Pipeline ini dirancang untuk memprediksi penyakit asma berdasarkan dataset yang diberikan. Berikut adalah tahapan yang dilakukan dalam proyek ini:
@@ -47,9 +66,3 @@ Pipeline ini dirancang untuk memprediksi penyakit asma berdasarkan dataset yang 
 
 ## 🗂️ Struktur Direktori
 
-```text
-.
-├── dataset/               # Berisi asthma_disease_data.csv (dataset penyakit asma)
-├── notebooks/             # Berisi asthma_ml_pipeline.ipynb (notebook pipeline ML asma)
-├── requirements.txt       # File yang berisi daftar pustaka yang dibutuhkan
-└── README.md              # Dokumentasi proyek ini
